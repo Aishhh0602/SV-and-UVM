@@ -1,0 +1,78 @@
+$date
+	Thu Sep 25 08:05:53 2025
+$end
+
+$version
+	Synopsys VCS version U-2023.03-SP2_Full64
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 5e330bb7a2dd82de $end
+
+
+$scope module $unit $end
+$upscope $end
+
+
+$scope module testbench $end
+
+$scope module vif $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # cin $end
+$var reg 1 $ s $end
+$var reg 1 % c $end
+$upscope $end
+
+
+$scope module f1 $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 ( cin $end
+$var wire 1 ) s $end
+$var wire 1 * c $end
+$var wire 1 + w1 $end
+$var wire 1 , w2 $end
+$var wire 1 - w3 $end
+$var wire 1 . sum $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0.
+0+
+1,
+0-
+0!
+1"
+1%
+1#
+z$
+0&
+1'
+1*
+1(
+z)
+$end
+#1
+1!
+1&
+0"
+0'
+0#
+0(
+1-
+1+
+0,
+0+
+0-
+1.
+0*
+0%
